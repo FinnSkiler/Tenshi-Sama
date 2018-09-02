@@ -29,4 +29,4 @@ if (talkedRecently.has(msg.author.id)) {
 });
 
 
-client.login(settings.token);
+client.login(process.env.TOKEN);
